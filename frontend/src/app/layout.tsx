@@ -33,6 +33,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 Contact Us
               </Link>
             </li>
+             <li>
+              <Link href="/gallery" className="text-white hover:text-gray-300 transition-colors duration-200">
+                Gallery
+              </Link>
+            </li>
           </ul>
         </nav>
 
